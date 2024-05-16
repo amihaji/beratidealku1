@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>embede text file</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    
+    <script>
+      var txtFile = new XMLHttpRequest();
+      var allText = "file not found";
+      txtFile.onreadystatechange = function () {
+        if (txtFile.readyState === XMLHttpRequest.DONE && txtFile.status == 200) {
+            allText = txtFile.responseText;
+            allText = allText.split("\n").join("<br>");
+        }
+
+        document.getElementById('txt').innerHTML = allText;
+      }
+      txtFile.open("GET", 'artikel.txt', true);
+      txtFile.send(null);
+    </script>
+
+  </head>
+  <body>
+    <embed src="artikel.txt" width="600" height="400" type="text/plain">
+    <!-- <div><object data="artikel.txt"></object></div> -->
+ </body>
+ </html>
