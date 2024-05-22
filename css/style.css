@@ -179,14 +179,16 @@ h3,
 
 h4,
 .heading-4 {
-	font-size: 22px;
+	/** font-size: 22px; **/
+	font-size: 20px;
 	line-height: 1.5;
 }
 
 @media (min-width: 1200px) {
 	h4,
 	.heading-4 {
-		font-size: 24px;
+		/** font-size: 24px; **/
+		font-size: 22px;
 		line-height: 1.25;
 	}
 }
@@ -862,90 +864,159 @@ h2.creative-title span {
 
 @media (min-width: 1200px) {
 	.item-1 {
+		/*
 		width: 186px;
 		height: 186px;
 		left: 40.6%;
+        */
+		width: 186px;
+		height: 186px;
+		top:0;
+		left: 50%;
 	}
 }
 
 @media (min-width: 1200px) {
 	.item-2 {
+		/* Asli
 		width: 445px;
 		height: 415px;
 		top: 25.2%;
 		left: 19.8%;
+		*/
+
+		/* Perubahan Pertama 
+		width: 300px;
+		height: 300px;
+		top: 25%;
+		left: 17%;
+		*/
+		width: 1200px;
+		height: 330px;
+		top: 25%;
+		left: 0;
+
+
 	}
 }
 
 @media (min-width: 1200px) {
 	.item-3 {
-		width: 86px;
-		height: 86px;
+		/* 
+		width: 86px; 
+		height: 186px;
 		top: 36.3%;
 		left: 10%;
+		*/
+		width: 186px;
+		height: 186px;
+		top: 35%;
+		left: 0%;
 	}
 }
 
 @media (min-width: 1200px) {
 	.item-4 {
+		/*
 		width: 203px;
 		height: 203px;
 		top: 50%;
+		left: 0;
+		*/
+		width: 186px;
+		height: 186px;
+		top: 68%;
 		left: 0;
 	}
 }
 
 @media (min-width: 1200px) {
 	.item-5 {
+		/*
 		width: 202px;
 		height: 202px;
 		bottom: 0;
+		left: 20.5%;
+		*/
+		width: 186px;
+		height: 186px;
+		bottom: 15%;
 		left: 20.5%;
 	}
 }
 
 @media (min-width: 1200px) {
 	.item-6 {
+		/*
 		width: 86px;
 		height: 86px;
 		top: 76.5%;
+		left: 40.5%;
+        */
+		width: 186px;
+		height: 186px;
+		top:70%;
 		left: 40.5%;
 	}
 }
 
 @media (min-width: 1200px) {
 	.item-7 {
+		/*
 		width: 240px;
 		height: 317px;
 		left: 59.7%;
 		top: 49.6%;
+        */ 
+		width: 240px;
+		height: 240px;
+		left: 46%;
+		top: 35%;
 	}
 }
 
 @media (min-width: 1200px) {
 	.item-8 {
+		/*
 		width: 203px;
 		height: 203px;
 		right: 0;
 		top: 49.6%;
+        */
+		width: 186px;
+		height: 186px;
+		right:8%;
+		top: 49%;
 	}
 }
 
 @media (min-width: 1200px) {
 	.item-9 {
+		/*
 		width: 86px;
 		height: 86px;
 		right: 10%;
+		top: 76.5%;
+        */
+		width: 186px;
+		height: 186px;
+		right: 7%;
 		top: 76.5%;
 	}
 }
 
 @media (min-width: 1200px) {
 	.item-10 {
+		/*
 		width: 86px;
 		height: 86px;
 		right: 26%;
 		bottom: 0;
+        */
+		width: 186px;
+		height: 186px;
+		right: 25%;
+		bottom: 15%;
 	}
 }
 
@@ -1031,7 +1102,8 @@ h2.creative-title span {
 }
 
 .slide-description h4 {
-	text-transform: uppercase;
+	/** text-transform: uppercase;**/
+	text-transform:none;
 	font-weight: 700;
 }
 
