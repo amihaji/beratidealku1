@@ -21,3 +21,7 @@ Pilih info : . . . . .
 
 link katalok :
 https://wa.me/c/628114499640
+
+
+SCRIPT WA :
+https://api.whatsapp.com/send?phone=6281241318600&text=Halo+kak%2C+saya+ingin+info+tentang+%3A%0ALomba%20Turun%20Berat%20Badan
