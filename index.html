@@ -11,8 +11,20 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <!--- <link rel="stylesheet" href="css/bootstrap.css"> -->
+    <!--- <link rel="stylesheet" href="css/fonts.css"> -->
+    <!--- <link rel="stylesheet" href="css/style.css"> -->
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+    <style>
+      img[data-src] {
+          opacity: 0;
+          transition: opacity 0.3s;
+      }
+      img[data-src].lazyloaded {
+          opacity: 1;
+      }
+    </style>
   </head>
   <body>
 
@@ -431,7 +443,10 @@
       </footer>
     </div>
     <div class="snackbars" id="form-output-global"></div>
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/core.min.js" async></script>
+    <script src="js/script.min.js" async></script>
+    <script src="js/lazyload.min.js" async></script>
+    <!-- <script src="js/core.js" async></script> -->
+    <!-- <script src="js/script.js"></script> -->
   </body>
 </html>
