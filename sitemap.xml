@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://bit.ly/BERATIDEALKU</loc>
+        <lastmod>2024-06-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://amihaji.github.io/beratidealku/artikel1.html</loc>
+        <lastmod>2024-06-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://amihaji.github.io/beratidealku/artikel2.html</loc>
+        <lastmod>2024-06-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://amihaji.github.io/beratidealku/artikel3.html</loc>
+        <lastmod>2024-06-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>
